@@ -282,3 +282,28 @@ footer .footer-container {
 
     color: #757575
 }
+.hide{
+    display: none !important;
+}
+ 
+@media screen  and (max-width: 576x) {
+    
+    .container {
+        width: 95%;
+    }
+
+    .section-heading h2{
+        font-size: 30px;
+
+    }
+#about,
+#skills,
+#resume {
+    padding-top: 60px;
+}
+    
+#skills .skills-container .skill-box {
+  flex-direction: column;
+
+}
+}
