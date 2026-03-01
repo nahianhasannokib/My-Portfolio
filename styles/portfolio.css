@@ -286,7 +286,7 @@ footer .footer-container {
     display: none !important;
 }
  
-@media screen  and (max-width: 576x) {
+@media screen  and (max-width: 576px) {
     
     .container {
         width: 95%;
@@ -301,9 +301,17 @@ footer .footer-container {
 #resume {
     padding-top: 60px;
 }
+
+#about .about-container {
+    padding: 20px;
+}
     
-#skills .skills-container .skill-box {
+#skills .skills-container .skill-box, #about .about-container {
   flex-direction: column;
 
 }
+.skill-box .skill-card {
+    max-width: 100%;
+}
+
 }
